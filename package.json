@@ -1,0 +1,20 @@
+{
+  "name": "ms-config-compiler",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./cli.js gen --src ./tests/srcfiles --code-out ./testsout/codeout --data-out ./testsout/dataout --options-file ./tests/extraOptions.json --merge"
+  },
+  "author": "zilch",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^6.2.1",
+    "leb128": "0.0.5",
+    "shelljs": "^0.8.4",
+    "xlsx": "^0.16.9"
+  },
+  "bin": {
+    "msconfig": "./cli.js"
+  }
+}

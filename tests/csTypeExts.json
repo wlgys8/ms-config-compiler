@@ -1,0 +1,7 @@
+[
+	{
+		"configTypeName":"SystemLanguage",
+		"csType":"UnityEngine.SystemLanguage",
+		"readApi":"ReadEnum<UnityEngine.SystemLanguage>"
+	}
+]

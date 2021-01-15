@@ -1,0 +1,4 @@
+{
+	"configTypeExts":"./tests/configTypeExts.js",
+	"csTypeExts":"./tests/csTypeExts.json"
+}
