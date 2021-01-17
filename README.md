@@ -2,6 +2,10 @@
 
 通过预处理，将特定格式的excel配置表，转换为二进制数据和数据模型代码。 供运行时快速加载和读取。
 
+该项目为编译工具项目，运行时读取库请从下方获取:
+
+c#(Unity): https://github.com/wlgys8/ConfigTableCSharp
+
 # Warning 
 项目处于开发中，功能接口可能不稳定
 
@@ -79,7 +83,7 @@ extraOptionsFile是用来作支持类型扩展的。
 
 - contentOffset
 
-    数据字段开始的行。默认为2.
+    字段和数据开始的列。默认为3.
 
 - keys
 
